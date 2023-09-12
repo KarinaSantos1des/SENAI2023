@@ -3,7 +3,7 @@
 int main(){
 	int num, fat;
 	
-	printf("Digite um numero positivo e maior que zero: ");
+	printf("Digite um numero positivo e maior que zero:\n");
 	scanf("%d", &num);
 	
 	for(fat = 1; num > 1; num = num - 1)
