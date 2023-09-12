@@ -1,0 +1,27 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    user-select: none;
+
+    .logo img {
+        max-width: 10dvh;
+        max-height: 15dvh;
+        width: auto;
+        height: auto;
+     }
+     :root {
+        --bg-color-1: #171717;
+        --bg-color-2: #202020;
+        --bg-color-3: #303030;
+    
+        --font-color-primary: whitesmoke;
+        --font-color-dea: #8e8a8a;
+        --color-dea-r: red;
+    
+        --font-fam-primary: 'Phudu', cursive;
+        --font-fam-secundary: 'Roboto', sans-serif;
+        --font-fam-tertiary:  'Oswald', sans-serif;
+    }
